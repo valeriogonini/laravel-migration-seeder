@@ -16,7 +16,16 @@
 </head>
 
 <body>
+<div>
+    @foreach ($trains as $train)
+        <div>{{$train->company}}</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
 
+    @endforeach
+</div>
 </body>
 
 </html>
