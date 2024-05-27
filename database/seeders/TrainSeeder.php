@@ -26,7 +26,7 @@ class TrainSeeder extends Seeder
             $new_train->departure_time = $faker->dateTimeBetween('-1 week', '+1 week');
             $new_train->arrival_time = $faker->dateTimeInInterval('1 day', '+1 day');
             $new_train->train_code = $faker->randomNumber('1', '99999');
-            $new_train->number_wagons = $faker->randomNumber('1', '20');
+            $new_train->numeber_wagons = $faker->randomNumber('1', '20');
             $new_train->on_time = $faker->boolean();
             $new_train->cancelled = $faker->boolean();
 
